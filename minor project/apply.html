@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Real Estate Service in India | RealEstate.com</title>
+    <link rel="stylesheet" href="css/apply.css" />
+  </head>
+  <body>
+    <nav class="navbar background h-nav">
+      <ul class="nav-list v-class">
+        <div class="logo"><img src="img/logo.png" alt="Logo" /></div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="buy.html">Buy</a></li>
+        <li><a href="sell.html">Sell</a></li>
+      </ul>
+    </nav>
+
+    <form id="form" name="applicationform" onsubmit="return validateform()">
+      <h1 class="header">Apply Now!</h1>
+      <div class="form-control">
+        <label for="name" id="label-name"> Full Name: </label>
+
+        <input
+          type="text"
+          id="name"
+          name="fullname"
+          placeholder="Enter your name"
+        />
+      </div>
+
+      <div class="form-control">
+        <label for="email" id="label-email"> Email ID: </label>
+
+        <input
+          type="email"
+          id="email"
+          name="emailid"
+          placeholder="Enter your email"
+        />
+      </div>
+
+      <div class="form-control">
+        <label for="age" id="label-age"> Contact Number: </label>
+
+        <input
+          type="text"
+          id="age"
+          name="contactnumber"
+          placeholder="Enter your Contact Number"
+        />
+      </div>
+
+      <div class="form-control">
+        <label for="age" id="label-age"> Location: </label>
+
+        <input
+          type="text"
+          id="age"
+          name="location"
+          placeholder="Enter your Location"
+        />
+      </div>
+
+      <div class="form-control">
+        <label for="role" id="label-role"> Flats: </label>
+        <select name="role" class="role">
+          <option value="btech">1BHK</option>
+          <option value="mtech">2BHK</option>
+          <option value="mca">3BHK</option>
+          <option value="ms">4BHK</option>
+        </select>
+      </div>
+
+      <button type="submit">Submit <i class="fa fa-rocket"></i></button>
+    </form>
+    <footer class="background">
+      <p class="text-footer">
+        Copyright &copy; 2027 - www.RealEstate.com - All rights reserved
+      </p>
+    </footer>
+    <script src="/js/apply.js"></script>
+  </body>
+</html>

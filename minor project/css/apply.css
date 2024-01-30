@@ -1,0 +1,157 @@
+import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Bree+Serif&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 50%;
+    border-radius: 50px;
+}
+.navbar{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: sticky;
+     top: 0;
+     cursor: pointer;
+}
+.nav-list{
+    width: 70% ;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-list li a:hover{
+    color: grey;
+}
+.rightNav{
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/buybg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+form {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 5px 8px 13px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling form-control Class */
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/* Styling form-control Label */
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+/* Styling form-control input,
+select, textarea */
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+    font-size: 1rem;
+    border-radius: 9px;
+}
+
+#location {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+/* Styling form-control Radio
+button and Checkbox */
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+
+#upload {
+    margin-top: 20px;
+
+}
+
+
+/* Styling Button */
+button {
+    background-color: #000000;
+    border: 1px solid #777;
+    border-radius: 9px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: rgb(255, 251, 251);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(177, 174, 174);
+    color: rgb(3, 2, 2);
+    border: 2px solid grey;
+}
+
+.header {
+    text-align: center;
+    padding-top: 0px;
+    text-shadow: 3px 3px 3px gray;
+    color: rgb(0, 0, 0);
+}
+.text-footer{
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
